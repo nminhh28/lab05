@@ -34,6 +34,7 @@ table {
 
 #images {
   float: right;
+  clear: both;
 }
   
 figure {
