@@ -37,6 +37,7 @@ images {
 
 #images {
   text-align: center;
+  float: right;
 }
   
 figure {
