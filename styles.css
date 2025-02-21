@@ -9,7 +9,39 @@ aside {
   margin: 1em;
   padding: 1em;
   background:url(images/fade.jpg) repeat-x top left;
-  width: 40%;
+  width: 30%;
+  float: right;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+#lists {
+  float: left;
+}
+
+table {
+  margin: auto;
+}
+
+#tables {
+  float: right;
+}
+
+#hyperlinks {
+  clear: left;
+  float: left;
+}
+
+images {
+  float: right;
+}
+
+figure {
+  border: 2px solid #ccc
+}
+
+#lists, #images, #tables, #hyperlinks {
+  width: 50%;
+  text-align:center;
 }
 
 header {
@@ -21,9 +53,35 @@ header {
 }
 
 footer {
-  border-top: 4px double pink;
+  border-top: 4px double darkgray;
+  clear: both;
 }
 
+footer p {
+  display: inline-block;
+  width: 33%;
+}
+
+footer p:first-child {
+  float: left;
+}
+
+footer p:nth-child(2) {
+  text-align: center;
+}
+
+footer p:last-child {
+  float: right;
+  text-align: right;
+}
+
+ol, ul, dl {
+  text-align: left;
+}
+
+article {
+  min-width: 30em;
+}
 
 /* Basic Styles */
 h1 {
