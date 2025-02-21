@@ -24,10 +24,11 @@ table {
 
 #tables {
   float: right;
+  margin: auto;
 }
 
 #hyperlinks {
-  clear: both;
+  clear: left;
   float: left;
 }
 
