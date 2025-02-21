@@ -27,17 +27,20 @@ table {
 }
 
 #hyperlinks {
-  clear: left;
+  clear: both;
   float: left;
 }
 
-#images {
+images {
   float: right;
-  text-align: center;
 }
 
+#images {
+  text-align: center;
+}
+  
 figure {
-  border: 2px solid #ccc
+  border: 2px solid #ccc;
 }
 
 #lists, #images, #tables, #hyperlinks {
@@ -126,7 +129,6 @@ table {
 .alignment {
   text-align: right;
 }
-
 
 ul {
   list-style-type: square;
