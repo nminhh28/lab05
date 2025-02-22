@@ -8,7 +8,7 @@ aside {
   border-radius: 14px;
   margin: 1em;
   padding: 1em;
-  background:url(fade.jpg) repeat-x top left;
+  background:rl(fade.jpg) repeat-x top left;
   width: 30%;
   float: right;
   box-shadow: 10px 10px 5px #aaaaaa;
